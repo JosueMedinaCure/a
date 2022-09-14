@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximun-scale=1,minium-scale=1">
+    <title>Ejemplo</title>
+    <link rel="stylesheet" href="registro.css">
+    
+</head>
+<body>
+<section class="container">
+
+<img src="ingclientesss.png" alt="">
+
+   <form action="recibir.php" method="post">
+   
+    <label for="Tdoc">Tipo de Documento</label>
+    <form id= "Tdoc" name= "Tdoc"  >
+    <table>
+
+    <select name="Tdoc"  class="tdoc" >
+        <option selected=""disabled>Elige una opción</option>
+        <option value="CC">CC</option>
+        <option value="CE">CE</option>
+        <option value="TI">TI</option>
+        <option value="PASAPORTE">PASAPORTE</option>   
+    </select> 
+</table>
+    <input type="text" class="nom" name="nombre" required placeholder="Nombre" > <br/>
+    <input type="text" class="ndoc" name="NDoc" required placeholder="Numero de documento"> <br/>
+    <input type="text" class="celular" name="Celular" required placeholder="Celular"> <br/>
+    <input type="text" class="telefono" name="Fijo" required placeholder="Teléfono Fijo"> <br/>
+    <input type="text" class="direccion" name="Direccion" required placeholder="Dirección"> <br/>
+    <input type="email" class="email" name="email" required placeholder="Email"> <br/>
+    <input type="text" class="observacion" name="Observacion" required placeholder="Observación"> <br/>
+   <!--  <input type="submit" class="bn" name="enviar" value="Enviar"> -->
+    
+
+    <div  class="imagen" name="enviar">
+        
+            <button class="btn">boton</button>
+    
+       </div>
+
+       <div class="menu">
+        <a href="https://www.google.com/"><img src="salir.PNG" alt=""></a>
+      </div>
+
+   </form> 
+</section>
+</body>
+
+</html>

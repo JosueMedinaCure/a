@@ -1,0 +1,166 @@
+* ::before ::after {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     
+     body {
+         color: rgb(255, 255, 255);
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         background-color: dodgerblue;
+     }
+     
+     
+     .container img {
+     
+         width: 100%;
+         height: 100%;
+     }
+     .container {
+
+         width: 800px;
+         height: 600px;
+         overflow: hidden;
+         position: relative;
+         margin: 200px auto;
+         border-radius: 20px;
+         box-shadow: 5px 8px 12px black;
+         top: 50%;
+     }
+
+
+     .tdoc{
+         height: 35px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 320px;
+         position: absolute;
+         top: 19%;
+         left: 26%;
+     }
+
+     .ndoc{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 27.30%;
+         left: 26%;
+     }
+
+     .nom{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 34.80%;
+         left: 26%;
+     }
+     .celular{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 42.80%;
+         left: 26%;
+     }
+
+.telefono{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 49.80%;
+         left: 26%;
+     }
+     
+     .direccion{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 56.80%;
+         left: 26%;
+     }
+
+     .email{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 64%;
+         left: 26%;
+     }
+
+     .observacion{
+         height: 30px;
+         background-color: rgb(255, 255, 255);
+         border-radius: 15px;
+         border-color: aliceblue;
+         padding-right: 270px;
+         position: absolute;
+         top: 72%;
+         left: 26%;
+     }
+
+     .boton{
+         height: 45px;
+         
+         position: absolute;
+         top: 34.80%;
+         left: 26%;
+     }
+
+     .guardar{
+         height: 45px;
+         opacity: 20%;
+         position: absolute;
+         top: 84.60%;
+         left: 37%;
+     }
+     
+.menu{
+         height: 45px;
+         font-size: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         position: absolute;
+         top: 84.30%;
+         left: 61%;
+}
+
+.imagen{
+         position: absolute;
+         background-image: url("guardar.PNG");
+         background-repeat: no-repeat;
+         background-size: contain;
+         height: 140px;
+         width: 150px;
+         text-align: center;
+         padding-top: 2px;
+         top: 85.99%;
+         left: 42%;
+}
+
+.btn{
+         opacity: 1%;
+         top: 1%;
+          height: 35px;
+         width: 140px; 
+
+}
